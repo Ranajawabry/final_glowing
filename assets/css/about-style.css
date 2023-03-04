@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+
+
+
+.about{
+    padding: 4% 5%;
+}
+.about-body{
+    color: rgb(126 , 126 , 126);
+    font-size: 22px;
+
+}
+.about-title{
+    color: #131313;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.3;
+    word-break: break-word;
+    font-family: 'Urbanist';
+    padding-top: 48px;
+    
+}
+.sub-title{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Urbanist';
+}
+.bol{
+    color: #131313;
+    font-weight: 500;
+
+}
+.num{
+    font-weight: 500;
+
+}
+/*second section*/
+.about .bbox{
+    overflow: hidden;
+    
+}
+.about .bbox img{
+    transition: transform 2s;
+}
+
+.about .bbox :hover img{
+    transform: scale(1.2);
+    
+}
+
+
+/*end second section*/
+.card-img{
+    width: 260px;
+    height: 328px;
+}
+
+.card-title{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    word-break: break-word;
+    font-family: 'Urbanist';
+
+}
+
+.icc{
+    color:#131313;
+    font-size: 20px;
+}
+.popular .single-img .img-team{
+    position: relative;
+    overflow: hidden;
+    
+}
+.popular .single-img .img-team .iconns{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    width: 260px;
+    background-color: #e5e5e5;
+    opacity: 1;
+    visibility: visible;
+    
+   
+
+}
+.popular .single-img .img-team :hover .iconns{
+    opacity: 1;
+    visibility: visible;
+    
+}
